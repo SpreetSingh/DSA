@@ -20,6 +20,7 @@ void insertion(node*&tail,node*&head,int d)
     tail->next=temp;
     head->prev=temp;
     temp=tail;
+
 }
 void print(node*&tail)
 {node*temp=tail;
